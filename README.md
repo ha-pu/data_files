@@ -2,18 +2,19 @@
 
 ## User Knowledge Modeling Dataset
 
-`1-user_knowledge.csv`: This dataset has 403 rows and 6 columns. This dataset has
-been adapted from a real dataset about students' knowledge status about the
-subject of Electrical DC Machines.
+`1-user_knowledge.csv`: This dataset has 403 rows and 6 columns. This dataset
+relates to learning efforts and knowledge levels of participants in a
+corporate training course.
 
-| #  | Name | Definition                                                            | Data Type    |
-|----|------|-----------------------------------------------------------------------|--------------|
-| 1  | STG  | The degree of study time for goal object materials                    | Quantitative |
-| 2  | SCG  | The degree of repetition number of user for goal object materials     | Quantitative |
-| 3  | STR  | The degree of study time of user for related objects with goal object | Quantitative |
-| 4  | LPR  | The exam performance of user for related objects with goal object     | Quantitative |
-| 5  | PEG  | The exam performance of user for goal objects                         | Quantitative |
-| 6  | UNS  | The knowledge level of user (Very Low, Low, Middle, High)             | Qualitative  |
+| #  | Name | Refined Definition                                                                                                                        | Data Type    |
+|----|------|-------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1  | STG  | **Study Time on Goal Material** – How much time a participant spends studying the test material.                                          | Quantitative |
+| 2  | SCG  | **Study Count on Goal Material** – How often a participant reviews or repeats the test material.                                          | Quantitative |
+| 3  | STR  | **Study Time on Related Material** – How much time a participant spends learning content related to, but not  part of, the test material. | Quantitative |
+| 4  | LPR  | **Performance on Related Practice** – How well a participant performs on quizzes related to the subject but not on the main goal content. | Quantitative |
+| 5  | PEG  | **Performance on Exam Goals** – How well a participant scores on questions that assess the main learning objectives.                      | Quantitative |
+| 6  | UNS  | **User Knowledge Level** – A label that reflects the participant's overall understanding.                                                 | Qualitative  |
+
 
 ## Car Evaluation Dataset
 
