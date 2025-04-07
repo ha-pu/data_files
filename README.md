@@ -22,15 +22,15 @@ corporate training course.
 attributes such as price and technology are described across 6 attributes such
 as *Buying Price*, *Maintenance*, and *Safety* etc.
 
-| #  | Name     | Definition                                         | Data Type    |
-|----|----------|----------------------------------------------------|--------------|
-| 1  | buying   | Buying price of the car (USD)                      | Quantitative |
-| 2  | maint    | Price of the maintenance of car (USD)              | Quantitative |
-| 3  | doors    | Number of doors (2, 3, 4, 5-more)                  | Qualitative  |
-| 4  | persons  | Capacity in terms of persons to carry (2, 4, more) | Qualitative  |
-| 5  | lug_boot | the size of luggage boot (small, med, big)         | Qualitative  |
-| 6  | safety   | Estimated safety of the car (low, med, high)       | Qualitative  |
-| 7  | class    | Car acceptability (0: unacceptible, 10: very good) | Quantitative |
+| #  | Name     | Definition                                                       | Data Type    |
+|----|----------|------------------------------------------------------------------|--------------|
+| 1  | buying   | Buying price of the car (USD)                                    | Quantitative |
+| 2  | maint    | Price of the maintenance of car (USD)                            | Quantitative |
+| 3  | doors    | Number of doors (2, 3, 4, 5-more)                                | Qualitative  |
+| 4  | persons  | Capacity in terms of persons to carry (2, 4, more)               | Qualitative  |
+| 5  | lug_boot | Indicator whether the car has a large luggage boot (TRUE, FALSE) | Qualitative  |
+| 6  | safety   | Estimated safety of the car (low, med, high)                     | Qualitative  |
+| 7  | class    | Car acceptability (0: unacceptible, 10: very good)               | Quantitative |
 
 ## Online News Popularity Dataset
 
