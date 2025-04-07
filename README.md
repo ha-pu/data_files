@@ -24,8 +24,8 @@ as *Buying Price*, *Maintenance*, and *Safety* etc.
 
 | #  | Name     | Definition                                                       | Data Type    |
 |----|----------|------------------------------------------------------------------|--------------|
-| 1  | buying   | Buying price of the car (USD)                                    | Quantitative |
-| 2  | maint    | Price of the maintenance of car (USD)                            | Quantitative |
+| 1  | buying   | Buying price of the car (thousand USD)                           | Quantitative |
+| 2  | maint    | Price of the maintenance of car (thousand USD)                   | Quantitative |
 | 3  | doors    | Number of doors (2, 3, 4, 5-more)                                | Qualitative  |
 | 4  | persons  | Capacity in terms of persons to carry (2, 4, more)               | Qualitative  |
 | 5  | lug_boot | Indicator whether the car has a large luggage boot (TRUE, FALSE) | Qualitative  |
