@@ -15,7 +15,6 @@ corporate training course.
 | 5  | PEG  | **Performance on Exam Goals** – How well a participant scores on questions that assess the main learning objectives.                      | Quantitative |
 | 6  | UNS  | **User Knowledge Level** – A label that reflects the participant's overall understanding.                                                 | Qualitative  |
 
-
 ## Car Evaluation Dataset
 
 `2-car_acceptance.csv`: The data set has 1728 rows and 7 columns in which car
@@ -101,6 +100,7 @@ Mashable in a period of two years.
 | 59 | Abs_Title_Subjectivity       | Absolute Subjectivity Level                                               | Quantitative |
 | 60 | Abs_Title_Sentiment_Polarity | Absolute Polarity Level                                                   | Quantitative |
 | 61 | Shares                       | Number of Shares                                                          | Quantitative |
+| 62 | High_Shares                  | Dummy indicator whether the article has been highly shared                | Qualitative  |
 
 ## Acknowledgements
 
