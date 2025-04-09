@@ -102,6 +102,27 @@ Mashable in a period of two years.
 | 61 | Shares                       | Number of Shares                                                          | Quantitative |
 | 62 | High_Shares                  | Dummy indicator whether the article has been highly shared                | Qualitative  |
 
+## Repurchase Likelihood Dataset
+
+`4-repurchase_likelihood.csv`: This dataset has 891 rows and 10 columns. This
+dataset builds on the Titanic Survival dataset and was renamed to summarize a
+set of factors that might predict the likelihood of a repeated purchase in from
+a retail store chain. The data is prepared as if it were taken from a loyalty
+card programme.
+
+| #  | Name              | Definition                                                                         | Data Type    |
+|----|-------------------|------------------------------------------------------------------------------------|--------------|
+| 1  | customer_id       | Customer ID                                                                        | Qualitative  |
+| 2  | repurchase        | Indicator whether a repurchase occured (0: No, 1: Yes)                             | Qualitative  |
+| 3  | customer_tier     | Loyalty tier to which a customer was assigned (1: Frequent, 2: Repated, 3: Seldom) | Qualitative  |
+| 4  | customer_name     | Name of the customer                                                               | Qualitative  |
+| 5  | customer_sex      | Sex of the customer (female, male)                                                 | Qualitative  |
+| 6  | customer_age      | Age of the customer (parents sometimes created loyalty cards for their children)   | Quantitative |
+| 7  | customer_siblings | Number of siblings that also have a loyalty card                                   | Quantitative |
+| 8  | customer_parents  | Number of parents/grandparents that also have a loyalty card                       | Quantitative |
+| 9  | recent_purchase   | Amount spent on the most recent purchase                                           | Quantitative |
+| 10 | customer_location | Preferred location of the customer (C: Cherbourg, Q: Queenstown, S: Southampton)   | Qualitative  |
+
 ## Acknowledgements
 
 All datasets were sourced from [Data Science Dojo](https://code.datasciencedojo.com/datasciencedojo/datasets).
